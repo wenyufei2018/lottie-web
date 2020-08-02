@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T01:22:49.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="HMrk9caismNxz6NELxUV" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T05:59:37.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="oUxUGUUIQF5ZVcQIwXJA" version="13.5.5" type="github">
   <diagram id="agbauwv9X5guYUyLVa8n" name="Page-1">
-    <mxGraphModel dx="874" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="874" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,18 +79,6 @@
             <mxPoint x="160.96000000000004" y="370.00199999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G16GxMAndmrRPekkZxdR-101" value="HybridRenderer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="30" width="160" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="G16GxMAndmrRPekkZxdR-102" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="G16GxMAndmrRPekkZxdR-103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="G16GxMAndmrRPekkZxdR-104" value="buildItem&#xa;checkPendingElements&#xa;appendElementInPos&#xa;createShapecreateText&#xa;createCamera -&gt; HCameraElement&#xa;createImage -&gt; HImageElement&#xa;createComp&#xa;createSolid&#xa;createNull&#xa;renderFrame&#xa;destroy/show/hide&#xa;searchExtraCompositions " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
-          <mxGeometry y="60" width="160" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="G16GxMAndmrRPekkZxdR-80" value="HCameraElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="740" width="160" height="100" as="geometry" />
         </mxCell>
@@ -126,6 +114,18 @@
         </mxCell>
         <mxCell id="G16GxMAndmrRPekkZxdR-49" value="checkLayerLimits&#xa;renderRenderable&#xa;checkTransparency&#xa;initRenderable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-46">
           <mxGeometry y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G16GxMAndmrRPekkZxdR-101" value="HybridRenderer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="180" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="G16GxMAndmrRPekkZxdR-102" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G16GxMAndmrRPekkZxdR-103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="G16GxMAndmrRPekkZxdR-104" value="buildItem&#xa;checkPendingElements&#xa;appendElementInPos&#xa;createShapecreateText&#xa;createCamera -&gt; HCameraElement&#xa;createImage -&gt; HImageElement&#xa;createComp&#xa;createSolid&#xa;createNull&#xa;renderFrame&#xa;destroy/show/hide&#xa;searchExtraCompositions " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G16GxMAndmrRPekkZxdR-101">
+          <mxGeometry y="60" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="G16GxMAndmrRPekkZxdR-67" value="RenderableDOMElement" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="850" y="850" width="170" height="110" as="geometry" />
