@@ -1,7 +1,7 @@
 var ImagePreloader = (function(){
 
     var proxyImage = (function(){
-        var canvas = createTag('canvas');
+        var canvas = createTag('canvas'); 
         canvas.width = 1;
         canvas.height = 1;
         var ctx = canvas.getContext('2d');

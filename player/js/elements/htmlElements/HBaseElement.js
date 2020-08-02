@@ -29,9 +29,11 @@ HBaseElement.prototype = {
         }
     },
     renderElement: function() {
+        // matrix 改变
         if(this.finalTransform._matMdf){
             this.transformedElement.style.transform = this.transformedElement.style.webkitTransform = this.finalTransform.mat.toCSS();
         }
+        // 透明度改变
         if(this.finalTransform._opMdf){
             this.transformedElement.style.opacity = this.finalTransform.mProp.o.v;
         }

@@ -205,6 +205,10 @@ SVGShapeElement.prototype.searchShapes = function(arr,itemsData,prevViewData,con
         } else {
             itemsData[i] = prevViewData[processedPos - 1];
         }
+        // fill 填充色
+        // stroke 边框
+        // gfill :Shape content type.
+        // gstroke: Shape content type
         if(arr[i].ty == 'fl' || arr[i].ty == 'st' || arr[i].ty == 'gf' || arr[i].ty == 'gs'){
             if(!processedPos){
                 itemsData[i] = this.createStyleElement(arr[i], level);
@@ -215,6 +219,7 @@ SVGShapeElement.prototype.searchShapes = function(arr,itemsData,prevViewData,con
                 container.appendChild(itemsData[i].style.pElem);
             }
             ownStyles.push(itemsData[i].style);
+        // grroup
         }else if(arr[i].ty == 'gr'){
             if(!processedPos){
                 itemsData[i] = this.createGroupElement(arr[i]);
@@ -228,18 +233,26 @@ SVGShapeElement.prototype.searchShapes = function(arr,itemsData,prevViewData,con
             if(arr[i]._render){
                 container.appendChild(itemsData[i].gr);
             }
+        // transform
         }else if(arr[i].ty == 'tr'){
             if(!processedPos){
                 itemsData[i] = this.createTransformElement(arr[i], container);
             }
             currentTransform = itemsData[i].transform;
             ownTransformers.push(currentTransform);
+        // shape
+        // rect 矩形
+        // ellipse 椭圆
+        // star
         }else if(arr[i].ty == 'sh' || arr[i].ty == 'rc' || arr[i].ty == 'el' || arr[i].ty == 'sr'){
             if(!processedPos){
-                itemsData[i] = this.createShapeElement(arr[i], ownTransformers, level);
+                mm[i] = this.createShapeElement(arr[i], ownTransformers, level);
             }
             this.setElementStyles(itemsData[i]);
-
+        // trim
+        // round
+        // 
+        //
         }else if(arr[i].ty == 'tm' || arr[i].ty == 'rd' || arr[i].ty == 'ms' || arr[i].ty == 'pb'){
             if(!processedPos){
                 modifier = ShapeModifiers.getModifier(arr[i].ty);
@@ -251,6 +264,7 @@ SVGShapeElement.prototype.searchShapes = function(arr,itemsData,prevViewData,con
                 modifier.closed = false;
             }
             ownModifiers.push(modifier);
+        // repeater
         }else if(arr[i].ty == 'rp'){
             if(!processedPos){
                 modifier = ShapeModifiers.getModifier(arr[i].ty);

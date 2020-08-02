@@ -6243,8 +6243,8 @@ SVGRenderer.prototype.renderFrame = function(num){
     }else{
         this.renderedFrame = num;
     }
-    // console.log('-------');
-    // console.log('FRAME ',num);
+    console.log('-------');
+    console.log('FRAME ',num);
     this.globalData.frameNum = num;
     this.globalData.frameId += 1;
     this.globalData.projectInterface.currentFrame = num;
