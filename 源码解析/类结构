@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2020-08-08T08:35:52.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.6.0" etag="f6H7fatF6kd4PndRSN2l" type="github"><diagram id="ePVZ4wAx7P5zT0K9eJZe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-08T10:35:15.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="iIxq07KhehLUzhREKUWM" version="13.6.0" type="github">
+  <diagram id="ePVZ4wAx7P5zT0K9eJZe" name="Page-1">
+    <mxGraphModel dx="956" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mLMJRyGpjU9-W78laHaE-1" value="FrameElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-2" value="+  _isFirstFrame: 是否是第一帧&#xa;+  dynamicProperties: 动态属性&#xa;+ _mdf: 此帧是否更新" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-1">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-1">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-4" value="+ initFrame&#xa;+ prepareProperties: 计算动态属性&#xa;+ addDynamicProperty: 添加动态属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-1">
+          <mxGeometry y="88" width="240" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-14" value="RenderableElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="252" width="230" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-15" value="+ isInRange: 该帧是否在可视范围内&#xa;+ hidden: 该元素是否隐藏&#xa;+ isTransparent: 是否透明&#xa;+ renderableComponents: 动画元素列表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-14">
+          <mxGeometry y="26" width="230" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-14">
+          <mxGeometry y="100" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-10" value="TransformElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="35" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-11" value="+ finalTransform.mProp: 本元素的变换值&#xa;+ finalTransform._matMdf: mat 是否改变&#xa;+ finalTransform._opMdf: opacity 是否改变&#xa;+ finalTransform.mat: 算上继承关系的变换值&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-10">
+          <mxGeometry y="26" width="300" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-10">
+          <mxGeometry y="90" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-13" value="+  initTransform: 初始化。主要是针对data.ks&#xa;+ renderTransform: 根据继承关系，算出最终的 变换值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-10">
+          <mxGeometry y="98" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-5" value="BaseElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="51" width="250" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-6" value="+ globalData&#xa;+ comp: 此元素实例&#xa;+data: 此元素对应的原始数据&#xa;+ effectsManager: 根据 data.ef 创建的实例" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-5">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-5">
+          <mxGeometry y="100" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-26" value="HBaseElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="260" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-27" value="+ baseElement: &#xa;+ layerElement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-26">
+          <mxGeometry y="26" width="260" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-26">
+          <mxGeometry y="90" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-29" value="+  initRendererElement: 初始化渲染元素" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-26">
+          <mxGeometry y="98" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-18" value="HierarchyElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-19" value="+ hierarchy: 父图层列表&#xa;+ _isParent: 是否是父图层&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-18">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-18">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mLMJRyGpjU9-W78laHaE-21" value="+ initHierarchy&#xa;+ setHierarchy&#xa;+ setAsParent&#xa;+ checkParenting" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mLMJRyGpjU9-W78laHaE-18">
+          <mxGeometry y="78" width="160" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
