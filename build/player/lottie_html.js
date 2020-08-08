@@ -9275,7 +9275,19 @@ HBaseElement.prototype = {
     },
     addEffects: function(){
     },
-    setMatte: function(){}
+    setMatte: function(pos){
+        const x = this.comp.elements[13].finalTransform.mProp.v.props[12];
+        const y = this.comp.elements[13].finalTransform.mProp.v.props[13];
+        const { w, h, u, p} = this.comp.elements[13].assetData;
+        const maskPath = u + p;
+        this.baseElement.style['-webkit-mask-image'] = `url(${u+p})`;
+        this.baseElement.style['-webkit-mask-size'] = `${w}px ${h}px`;
+        this.baseElement.style['-webkit-mask-position'] = `${x}px ${y}px`;
+        this.baseElement.style['-webkit-mask-repeat'] = `no-repeat`;
+
+        this.baseElement.style['width'] = this.data.w + 'px';
+        this.baseElement.style['height'] = this.data.h + 'px';
+    }
 };
 HBaseElement.prototype.getBaseElement = SVGBaseElement.prototype.getBaseElement;
 HBaseElement.prototype.destroyBaseElement = HBaseElement.prototype.destroy;
