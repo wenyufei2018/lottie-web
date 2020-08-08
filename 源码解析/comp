@@ -1,47 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T06:55:30.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="o9twSeI85CX9BS0x17dh" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-08T10:34:51.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bNHBumlHmEPjt_uQFDQV" version="13.6.0" type="github">
   <diagram id="E5YMlZ1Ozzh7d4mJsEIm" name="Page-1">
-    <mxGraphModel dx="1165" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-1" target="b4HHEolYeGH-MqzgGpfM-7">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-1" target="b4HHEolYeGH-MqzgGpfM-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-1" value="ICompElement.prototype.initElement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="70" width="220" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-1" value="ICompElement.prototype.initElement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-2" target="b4HHEolYeGH-MqzgGpfM-3">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-2" target="b4HHEolYeGH-MqzgGpfM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-2" value="SVGBaseElement.createContainerElements()&lt;br&gt;创建外层包裹&lt;br&gt;1. 在 svg.defs 创建 clipPath 路径&lt;br&gt;2. 在 设置&amp;nbsp;this.layerElement 属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="380" width="300" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-2" value="createContainerElements()&lt;br&gt;1. 创建外层包裹" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="310" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-3" target="b4HHEolYeGH-MqzgGpfM-4">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-3" target="b4HHEolYeGH-MqzgGpfM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-3" value="SVGBaseElement.createRenderableComponents&lt;br&gt;1. 创建&amp;nbsp;MaskElement(clipPath)&lt;br&gt;2. 创建&amp;nbsp;SVGEffects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="470" width="300" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-3" value="createRenderableComponents&lt;br&gt;1. 与&amp;nbsp;&lt;span style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;renderableComponents(&lt;/span&gt;&lt;span style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;Mask/effect)&lt;/span&gt;&lt;span style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;相关&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-4" target="b4HHEolYeGH-MqzgGpfM-15">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-4" target="b4HHEolYeGH-MqzgGpfM-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-4" value="BaseRenderer.buildAllItems()&lt;br&gt;1. 构建 comp 里面的所有 layer 元素&lt;br&gt;2. 检查将待定的元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="560" width="300" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-4" value="BaseRenderer.buildAllItems()&lt;br&gt;1. 递归构建 comp 里面的所有 layer 元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="470" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-7" target="b4HHEolYeGH-MqzgGpfM-9">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-7" target="b4HHEolYeGH-MqzgGpfM-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-7" value="&lt;span&gt;FrameElement.initFrame()&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;BaseElement.initBaseData&amp;nbsp;&lt;br&gt;TransformElement.initTransform&lt;br&gt;HierarchyElement.initHierarchy&lt;br&gt;RenderableElement.initRenderable&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="160" width="300" height="80" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-7" value="&lt;span&gt;FrameElement.initFrame()&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;BaseElement.initBaseData&amp;nbsp;&lt;br&gt;TransformElement.initTransform&lt;br&gt;HierarchyElement.initHierarchy&lt;br&gt;RenderableElement.initRenderable&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="140" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4HHEolYeGH-MqzgGpfM-9" target="b4HHEolYeGH-MqzgGpfM-2">
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b4HHEolYeGH-MqzgGpfM-9" target="b4HHEolYeGH-MqzgGpfM-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-9" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;(SVG/H/CV)BaseElement.initRendererElement&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;1. 创建&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;layerElement/baseElement/&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;maskedElement(有蒙层)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="270" width="400" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-9" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span&gt;initRendererElement&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span&gt;1. 初始化与本元素相关的样式&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="76" y="250" width="228" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b4HHEolYeGH-MqzgGpfM-15" value="this.hide()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="265" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="b4HHEolYeGH-MqzgGpfM-15" value="this.hide()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-2" value="HCompElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="240" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-3" value="+ layers: comp 里面包含的图层&#xa;+ elements: 通过 layers 构成的的元素&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FSlTCXH2XTXn2YNLC6mJ-2">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FSlTCXH2XTXn2YNLC6mJ-2">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-5" value="+ initElement: 初始化 Comp 元素&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FSlTCXH2XTXn2YNLC6mJ-2">
+          <mxGeometry y="88" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
