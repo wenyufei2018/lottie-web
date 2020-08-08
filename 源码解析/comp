@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-08T11:31:02.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="C2MSRb4-G9MnctARGJP9" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-08T15:40:42.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="V7rnkyB-ie_HlyNj-z5-" version="13.6.0" type="github">
   <diagram id="E5YMlZ1Ozzh7d4mJsEIm" name="Page-1">
-    <mxGraphModel dx="659" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1125" dy="854" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,6 +165,48 @@
         </mxCell>
         <mxCell id="FSlTCXH2XTXn2YNLC6mJ-49" value="this.hide()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="455" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-54" target="FSlTCXH2XTXn2YNLC6mJ-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-54" value="&lt;div style=&quot;font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;RenderableDOMElement&lt;/span&gt;.&lt;span&gt;prototype&lt;/span&gt;.&lt;span&gt;prepareFrame&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; line-height: 18px&quot;&gt;&lt;span&gt;1. 根据当前所在的帧num完成准备&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="740" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-56" target="FSlTCXH2XTXn2YNLC6mJ-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-56" value="prepareRenderableFrame(num)&lt;br&gt;判断在当前帧，此元素是否展示" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="795" y="822" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-58" target="FSlTCXH2XTXn2YNLC6mJ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-58" value="prepareProperties&lt;br&gt;更新动态属性dynamicProperties的值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="795" y="882" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-60" value="checkTransparency&lt;br&gt;1. 确保透明度应用到元素上" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="795" y="942" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-63" target="FSlTCXH2XTXn2YNLC6mJ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-63" value="&lt;span style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;RenderableDOMElement&lt;/span&gt;.prototype.renderFrame" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="720" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-65" target="FSlTCXH2XTXn2YNLC6mJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-65" value="TransformElement.renderTransform&lt;br&gt;1.&amp;nbsp; 通过&amp;nbsp;&lt;span style=&quot;font-family: menlo, monospace; font-size: 11px; text-align: left;&quot;&gt;hierarchy 里的 变换和opacity，计算最终的样式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="797" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="FSlTCXH2XTXn2YNLC6mJ-67" target="FSlTCXH2XTXn2YNLC6mJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-67" value="RenderableElement.renderRenderable&lt;br&gt;渲染 renderableComponents 里的元素" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="877" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSlTCXH2XTXn2YNLC6mJ-69" value="HBaseElement.renderElement&lt;br&gt;将 transform/opacity 样式添加到真实dom，实现样式的变换" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="957" width="260" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
