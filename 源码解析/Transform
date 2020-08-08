@@ -1,47 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T07:39:08.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4boOOh_hobDfldZKnj7C" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-08T16:11:12.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="I8Piv47ZFStd3MjQa6xC" version="13.6.0" type="github">
   <diagram id="NbjxsLHVWaYTNW8N24Tg" name="Page-1">
-    <mxGraphModel dx="1186" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zgb742ePBk4vplF5X0ac-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zgb742ePBk4vplF5X0ac-1" target="Zgb742ePBk4vplF5X0ac-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-1" value="初始化&amp;nbsp;TransformProperty&lt;br&gt;根据 data.ks 构造&amp;nbsp;&lt;span style=&quot;color: rgb(78 , 201 , 176) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;TransformProperty 实例&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="50" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zgb742ePBk4vplF5X0ac-8" target="Zgb742ePBk4vplF5X0ac-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-8" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;TransformElement。&lt;/span&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;initTransform&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;TransformPropertyFactory&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;getTransformProperty&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;TransformProperty&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;,&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;,&lt;span style=&quot;color: #9cdcfe&quot;&gt;container&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="160" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-10" value="1. 通过 ks 构造属性实例&lt;br&gt;2. 将动态属性添加到 dynamicProperties 数组中，为后续更新做准备" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="445" y="360" width="370" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zgb742ePBk4vplF5X0ac-13" target="Zgb742ePBk4vplF5X0ac-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-13" value="initDynamicPropertyContainer: 初始化动态属性容器&lt;br&gt;1.&amp;nbsp;&lt;span&gt;&amp;nbsp;this.container = container;&lt;br&gt;&lt;/span&gt;&lt;span&gt;2. this.dynamicProperties = []; （随时间变化的属性是动态属性）&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="260" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgb742ePBk4vplF5X0ac-15" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;PropertyFactory.&lt;/span&gt;&lt;span style=&quot;color: rgb(220 , 220 , 170)&quot;&gt;getProp&lt;/span&gt;&lt;/div&gt;构造属性实例&amp;nbsp; fds&lt;br&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;font color=&quot;#569cd6&quot;&gt;1. data.k 是一个数字&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;ValueProperty&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;2. data.k 是一个数字的数组&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;MultiDimensionalProperty&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;3. data.k 是一个对象的数组，根据属性区分&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;3.1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;KeyframedValueProperty&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;3.2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(78 , 201 , 176)&quot;&gt;KeyframedMultidimensionalProperty&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(30 , 30 , 30)&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(154 , 199 , 191)&quot;&gt;作用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(154 , 199 , 191)&quot;&gt;1. 将缺失值补齐&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(154 , 199 , 191)&quot;&gt;2. 计算本此时间内的值&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="80" width="420" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-1" value="Matrix" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-2" value="+ props: 对应 4x4 矩阵中的 16 位数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yw0UttKVWakU-cIqof0P-1">
-          <mxGeometry y="26" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="yw0UttKVWakU-cIqof0P-1">
-          <mxGeometry y="52" width="240" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-4" value="+ transform: 矩阵线性变换&#xa;+ translate/scale/rotate/skew 相关&#xa;+ toCSS/to2dCSS: 将数据转为 css 表达式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yw0UttKVWakU-cIqof0P-1">
-          <mxGeometry y="60" width="240" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Zgb742ePBk4vplF5X0ac-2" value="TransformProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="110" width="200" height="86" as="geometry" />
+          <mxGeometry x="80" y="80" width="200" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Zgb742ePBk4vplF5X0ac-3" value="+ 变换属性对象的数据抽象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Zgb742ePBk4vplF5X0ac-2" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -52,11 +16,17 @@
         <mxCell id="Zgb742ePBk4vplF5X0ac-5" value="+ getValue: 更新变换属性的对应值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Zgb742ePBk4vplF5X0ac-2" vertex="1">
           <mxGeometry y="60" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-5" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;TransformProperty 生命周期&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="80" width="190" height="60" as="geometry" />
+        <mxCell id="yw0UttKVWakU-cIqof0P-1" value="Matrix" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yw0UttKVWakU-cIqof0P-6" value="1. 通过&amp;nbsp;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;PropertyFactory 将&amp;nbsp;&lt;/span&gt;&lt;span&gt;ks 中的数据 构造&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1525" y="180" width="250" height="60" as="geometry" />
+        <mxCell id="yw0UttKVWakU-cIqof0P-2" value="+ props: 对应 4x4 矩阵中的 16 位数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yw0UttKVWakU-cIqof0P-1" vertex="1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yw0UttKVWakU-cIqof0P-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yw0UttKVWakU-cIqof0P-1" vertex="1">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yw0UttKVWakU-cIqof0P-4" value="+ transform: 矩阵线性变换&#xa;+ translate/scale/rotate/skew 相关&#xa;+ toCSS/to2dCSS: 将数据转为 css 表达式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yw0UttKVWakU-cIqof0P-1" vertex="1">
+          <mxGeometry y="60" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
